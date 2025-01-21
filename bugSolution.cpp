@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int; *ptr = 10;  //Correct way to allocate memory using new int y = *ptr; delete ptr; ptr = nullptr; return 0; }
